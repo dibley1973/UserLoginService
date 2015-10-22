@@ -33,6 +33,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.Tests", "07.Tests", "{91
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dibware.UserLoginService.UnitTests", "Dibware.UserLoginService.UnitTests\Dibware.UserLoginService.UnitTests.csproj", "{E57F4E51-40CC-4CD8-885F-4374D4D70B7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dibware.Core.DataAccess", "Dibware.Core.DataAccess\Dibware.Core.DataAccess.csproj", "{7CD0B478-E57D-44A8-B8DB-D21ED7D36237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dibware.UserLoginService.DomainEntities", "Dibware.UserLoginService.DomainEntities\Dibware.UserLoginService.DomainEntities.csproj", "{DB37DB2E-820C-44AA-B86E-CAFB1A618E22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,14 @@ Global
 		{E57F4E51-40CC-4CD8-885F-4374D4D70B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E57F4E51-40CC-4CD8-885F-4374D4D70B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E57F4E51-40CC-4CD8-885F-4374D4D70B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD0B478-E57D-44A8-B8DB-D21ED7D36237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD0B478-E57D-44A8-B8DB-D21ED7D36237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD0B478-E57D-44A8-B8DB-D21ED7D36237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD0B478-E57D-44A8-B8DB-D21ED7D36237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB37DB2E-820C-44AA-B86E-CAFB1A618E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB37DB2E-820C-44AA-B86E-CAFB1A618E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB37DB2E-820C-44AA-B86E-CAFB1A618E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB37DB2E-820C-44AA-B86E-CAFB1A618E22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,5 +83,7 @@ Global
 		{91ED2045-40BA-4232-B6AD-7A62E97F4D65} = {5960022D-766A-422E-A4D6-1BF1B790BFBC}
 		{F302286E-1FE1-4974-9070-02FABD9FBB7A} = {67A5BE4F-8BD4-4B5D-9719-70C974DFEDBE}
 		{E57F4E51-40CC-4CD8-885F-4374D4D70B7B} = {91BF65DB-49CC-48E5-BC36-2ACA92069862}
+		{7CD0B478-E57D-44A8-B8DB-D21ED7D36237} = {56895681-C7CD-43BD-849C-6C11794E1D6D}
+		{DB37DB2E-820C-44AA-B86E-CAFB1A618E22} = {8890B343-7D6D-4C60-B2AB-8A0569B9C415}
 	EndGlobalSection
 EndGlobal
