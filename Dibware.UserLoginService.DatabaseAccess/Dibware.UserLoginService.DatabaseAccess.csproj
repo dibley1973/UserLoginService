@@ -41,6 +41,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Base\RepositoryBase.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Dibware.UserLoginService.CommandService\Dibware.UserLoginService.CommandService.csproj">
+      <Project>{91ed2045-40ba-4232-b6ad-7a62e97f4d65}</Project>
+      <Name>Dibware.UserLoginService.CommandService</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
