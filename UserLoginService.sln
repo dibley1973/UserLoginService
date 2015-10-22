@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Dibware.UserLoginService.Database", "Dibware.UserLoginService.Database\Dibware.UserLoginService.Database.sqlproj", "{FE004E31-A2CC-409B-9D9D-BC6119EC15C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dibware.UserLoginService.QueryModel", "Dibware.UserLoginService.QueryModel\Dibware.UserLoginService.QueryModel.csproj", "{C63312AC-395A-41D4-8352-E26E3EB3AA36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dibware.UserLoginService.CommandService", "Dibware.UserLoginService.CommandService\Dibware.UserLoginService.CommandService.csproj", "{91ED2045-40BA-4232-B6AD-7A62E97F4D65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{1A417663-1281-455F-85F8-FA45869F897B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8890B343-7D6D-4C60-B2AB-8A0569B9C415}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{A15C1B26-AD36-47B1-B5C5-F0541758AE57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{67A5BE4F-8BD4-4B5D-9719-70C974DFEDBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dibware.UserLoginService.DatabaseAccess", "Dibware.UserLoginService.DatabaseAccess\Dibware.UserLoginService.DatabaseAccess.csproj", "{F302286E-1FE1-4974-9070-02FABD9FBB7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE004E31-A2CC-409B-9D9D-BC6119EC15C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE004E31-A2CC-409B-9D9D-BC6119EC15C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE004E31-A2CC-409B-9D9D-BC6119EC15C1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FE004E31-A2CC-409B-9D9D-BC6119EC15C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE004E31-A2CC-409B-9D9D-BC6119EC15C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE004E31-A2CC-409B-9D9D-BC6119EC15C1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C63312AC-395A-41D4-8352-E26E3EB3AA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63312AC-395A-41D4-8352-E26E3EB3AA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63312AC-395A-41D4-8352-E26E3EB3AA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63312AC-395A-41D4-8352-E26E3EB3AA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91ED2045-40BA-4232-B6AD-7A62E97F4D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91ED2045-40BA-4232-B6AD-7A62E97F4D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91ED2045-40BA-4232-B6AD-7A62E97F4D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91ED2045-40BA-4232-B6AD-7A62E97F4D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F302286E-1FE1-4974-9070-02FABD9FBB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F302286E-1FE1-4974-9070-02FABD9FBB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F302286E-1FE1-4974-9070-02FABD9FBB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F302286E-1FE1-4974-9070-02FABD9FBB7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE004E31-A2CC-409B-9D9D-BC6119EC15C1} = {A15C1B26-AD36-47B1-B5C5-F0541758AE57}
+		{C63312AC-395A-41D4-8352-E26E3EB3AA36} = {8890B343-7D6D-4C60-B2AB-8A0569B9C415}
+		{91ED2045-40BA-4232-B6AD-7A62E97F4D65} = {8890B343-7D6D-4C60-B2AB-8A0569B9C415}
+		{F302286E-1FE1-4974-9070-02FABD9FBB7A} = {67A5BE4F-8BD4-4B5D-9719-70C974DFEDBE}
+	EndGlobalSection
+EndGlobal
